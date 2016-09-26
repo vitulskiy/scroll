@@ -1,0 +1,88 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+}
+
+.soc {
+	text-align: right;
+
+}
+.soc .fa {
+	color: #000;
+	font-size: 26px;
+	padding: 5px;
+}
+.soc .fa:hover, .mini_login .fa:hover {
+	background: #fff;
+	border-radius: 20%;
+	cursor: pointer;
+}
+.login {
+	margin: 5px 0 0;
+}
+
+.mini_login .fa {
+	color: #000;
+	font-size: 26px;
+	padding: 5px;
+}
+
+.header {
+	background: #ccc;
+	padding: 10px auto;
+	position: fixed;
+	width: 100%;
+}
+.logo {
+	text-align: center;
+	margin: 5px 0 0;
+}
+
+
+.content {
+
+}
+
+ul.dropdown,
+ul.dropdown-inside {
+	list-style-type: none;
+	padding: 5px;
+}
+ul.dropdown-inside {
+	position: absolute;
+	left: 100px;
+	top: 16px;
+	display: none;
+}
+a.dropdown-top:hover, ul.dropdown-inside li:hover {
+	background: #111;
+}
+
+ul.dropdown li.dropdown-top:hover .dropdown-inside {
+	display: block;
+}
