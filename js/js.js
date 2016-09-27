@@ -7,7 +7,6 @@ window.onkeydown = function(event){
     wheel(wheelObj);
   }
 };
-
 window.onwheel = function(event){
   if (event.deltaY > 0){
     let wheelObj = {deltaY: 1};
@@ -17,7 +16,6 @@ window.onwheel = function(event){
     wheel(wheelObj);
   }
 };
-
 function wheel(event){
   let delta = event.deltaY;
   let blocks = document.getElementById('all').children;
